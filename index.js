@@ -47,4 +47,4 @@ for(let eachset of questionset){
   }
   questionnumber++;
 }
-console.log(`CONGRATS ${name}! Your quiz is over.\nYour total score is ${score}`)
+console.log(`CONGRATS ${name}! Your quiz is over.\nYour total score is ${score} out of ${questionset.length}`)
