@@ -1,5 +1,5 @@
 const readLineSynch = require('readline-sync');
-const name = readLineSynch.question('Enter your name ?\n');
+const name = readLineSynch.question('What is your name ?\n');
 console.log('\n Welcome to the Harry Potter Quiz \n');
 const questionset = [
   {
